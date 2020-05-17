@@ -1,0 +1,276 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		633044300CFB438400DA86F3 /* sxevent.h in Headers */ = {isa = PBXBuildFile; fileRef = 6330442F0CFB438400DA86F3 /* sxevent.h */; };
+		63AE7B4A0C624A1C00A0C1B2 /* sxcommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 63AE7B420C624A1C00A0C1B2 /* sxcommon.h */; };
+		63AE7B4B0C624A1C00A0C1B2 /* sxindex.h in Headers */ = {isa = PBXBuildFile; fileRef = 63AE7B430C624A1C00A0C1B2 /* sxindex.h */; };
+		63AE7B4C0C624A1C00A0C1B2 /* sxiterator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63AE7B440C624A1C00A0C1B2 /* sxiterator.cpp */; };
+		63AE7B4D0C624A1C00A0C1B2 /* sxiterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 63AE7B450C624A1C00A0C1B2 /* sxiterator.h */; };
+		63AE7B4E0C624A1C00A0C1B2 /* sxpunchfile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63AE7B460C624A1C00A0C1B2 /* sxpunchfile.cpp */; };
+		63AE7B4F0C624A1C00A0C1B2 /* sxpunchfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 63AE7B470C624A1C00A0C1B2 /* sxpunchfile.h */; };
+		63AE7B500C624A1C00A0C1B2 /* sxrecord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63AE7B480C624A1C00A0C1B2 /* sxrecord.cpp */; };
+		63AE7B510C624A1C00A0C1B2 /* sxrecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 63AE7B490C624A1C00A0C1B2 /* sxrecord.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6330442F0CFB438400DA86F3 /* sxevent.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = sxevent.h; sourceTree = "<group>"; };
+		63AE7B420C624A1C00A0C1B2 /* sxcommon.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = sxcommon.h; sourceTree = "<group>"; };
+		63AE7B430C624A1C00A0C1B2 /* sxindex.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = sxindex.h; sourceTree = "<group>"; };
+		63AE7B440C624A1C00A0C1B2 /* sxiterator.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = sxiterator.cpp; sourceTree = "<group>"; };
+		63AE7B450C624A1C00A0C1B2 /* sxiterator.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = sxiterator.h; sourceTree = "<group>"; };
+		63AE7B460C624A1C00A0C1B2 /* sxpunchfile.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = sxpunchfile.cpp; sourceTree = "<group>"; };
+		63AE7B470C624A1C00A0C1B2 /* sxpunchfile.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = sxpunchfile.h; sourceTree = "<group>"; };
+		63AE7B480C624A1C00A0C1B2 /* sxrecord.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = sxrecord.cpp; sourceTree = "<group>"; };
+		63AE7B490C624A1C00A0C1B2 /* sxrecord.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = sxrecord.h; sourceTree = "<group>"; };
+		63AE7B530C624A2A00A0C1B2 /* libsx360.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libsx360.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D289988505E68E00004EDB86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* sx360 */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = sx360;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				631B8A040C605B1000C61ED8 /* Source Files */,
+				631B8A030C605B0800C61ED8 /* Header Files */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63AE7B530C624A2A00A0C1B2 /* libsx360.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		631B8A030C605B0800C61ED8 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				6330442F0CFB438400DA86F3 /* sxevent.h */,
+				63AE7B420C624A1C00A0C1B2 /* sxcommon.h */,
+				63AE7B430C624A1C00A0C1B2 /* sxindex.h */,
+				63AE7B450C624A1C00A0C1B2 /* sxiterator.h */,
+				63AE7B470C624A1C00A0C1B2 /* sxpunchfile.h */,
+				63AE7B490C624A1C00A0C1B2 /* sxrecord.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		631B8A040C605B1000C61ED8 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				63AE7B440C624A1C00A0C1B2 /* sxiterator.cpp */,
+				63AE7B460C624A1C00A0C1B2 /* sxpunchfile.cpp */,
+				63AE7B480C624A1C00A0C1B2 /* sxrecord.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC0600554660B00DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63AE7B4A0C624A1C00A0C1B2 /* sxcommon.h in Headers */,
+				63AE7B4B0C624A1C00A0C1B2 /* sxindex.h in Headers */,
+				63AE7B4D0C624A1C00A0C1B2 /* sxiterator.h in Headers */,
+				63AE7B4F0C624A1C00A0C1B2 /* sxpunchfile.h in Headers */,
+				63AE7B510C624A1C00A0C1B2 /* sxrecord.h in Headers */,
+				633044300CFB438400DA86F3 /* sxevent.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC0620554660B00DB518D /* sx360 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB914A08733D8E0010E9CD /* Build configuration list for PBXNativeTarget "sx360" */;
+			buildPhases = (
+				D2AAC0600554660B00DB518D /* Headers */,
+				D2AAC0610554660B00DB518D /* Sources */,
+				D289988505E68E00004EDB86 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sx360;
+			productName = sx360;
+			productReference = 63AE7B530C624A2A00A0C1B2 /* libsx360.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+			};
+			buildConfigurationList = 1DEB914E08733D8E0010E9CD /* Build configuration list for PBXProject "sx360" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* sx360 */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC0620554660B00DB518D /* sx360 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC0610554660B00DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63AE7B4C0C624A1C00A0C1B2 /* sxiterator.cpp in Sources */,
+				63AE7B4E0C624A1C00A0C1B2 /* sxpunchfile.cpp in Sources */,
+				63AE7B500C624A1C00A0C1B2 /* sxrecord.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB914B08733D8E0010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_PREFIX = lib;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = sx360;
+				SDKROOT = macosx;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DEB914C08733D8E0010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = sx360;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1DEB914F08733D8E0010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1DEB915008733D8E0010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
+				GCC_WARN_PEDANTIC = NO;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.4u.sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB914A08733D8E0010E9CD /* Build configuration list for PBXNativeTarget "sx360" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB914B08733D8E0010E9CD /* Debug */,
+				1DEB914C08733D8E0010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB914E08733D8E0010E9CD /* Build configuration list for PBXProject "sx360" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB914F08733D8E0010E9CD /* Debug */,
+				1DEB915008733D8E0010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
