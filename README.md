@@ -26,7 +26,7 @@ So, for some reason, certain industries (market research is one) decided that tu
 
 The "standard" binary representation of a punch card is 80 columns of 12 bytes.  The numbers range from 0-9 and X, Y.  The PC representation expects a certain order of the punches, not like what you see above with the 0 - 9, and a couple of rows above them.
 
-Because there are 12 answers, we can use 12 bits to store all possible answers for a column on the card.  That's two bytes.  The two bytes are evenly distributed, so each byte wastes two bits.  The standard is that the punch order is 3210XY for the six bits of the first bytes, and 987654 for the six bits of the second bytes.  
+Because there are 12 answers, we can use 12 bits to store all possible answers for a column on the card.  That's two bytes.  The two bytes are evenly distributed, so each byte wastes two bits.  The standard is that the punch order is 3210XY for the six bits of the first byte, and 987654 for the six bits of the second byte.  
 
 "Punching" a card is simply a matter of flipping a bit at the position of the column and punch.  So, to punch 3 on column 1 (using the standard punch order), simply flip the first bit of the first byte.  If you want to punch 9 on column 1, then you would flip the first bit of the second byte, and so on.
 
