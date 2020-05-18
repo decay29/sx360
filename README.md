@@ -40,7 +40,7 @@ By looking at a punch card, there is no certain way to determine whether a punch
 
 ## sx360 handling of binary files 
 
-At the top level is sxPunchFile.  When you open an `sxPunchFile`, you will pass it a few parameters for the layout of the punches.  You are allowed to configure them however you want, including not wasting the 2 bits per byte.  If you choose to do nothing the default 3210XY and 987654 mapping per byte is used.  Files have two modes, `CREATE` and the very poorly named `READ_ONLY`.  If you open a file in `CREATE` mode, you can only append records, you cannot read them.  If you open in `READ_ONLY`, you can make actual changes to existing records, but you cannot add new ones.
+At the top level is sxPunchFile.  When you open an `sxPunchFile`, you will pass it a few parameters for the layout of the punches.  You are allowed to configure them however you want, including not wasting the 2 bits per byte.  If you choose to do nothing the default 3210XY and 987654 mapping per byte is used.  Files have three modes, `CREATE`, `READ_ONLY`, and `READ_WRITE`.  If you open a file in `CREATE` mode, you can only append records, you cannot read them.  If you open in `READ_WRITE`, you can make actual changes to existing records, but you cannot add new ones.  If you open in `READ_ONLY`, writes will fail.
 
 Because this code was originally written when RAM was not as plentiful as it is now, the file is read record by record into an `sxRecord`, thru `sxIterator`.  `sxIterator` lets you move back and forth through the file.  `sxIterator` does not exist when you CREATE a binary file, so that is why you can only append `sxRecord`s to the end of the file.
 
